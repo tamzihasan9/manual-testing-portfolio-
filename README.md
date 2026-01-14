@@ -1,4 +1,6 @@
-# Manual Testing Portfolio
+← [Back to QA Portfolio Hub](https://github.com/tamzihasan9/qa-testing-portfolio)
+
+---# Manual Testing Portfolio
 
 **Author:** Tamzid Hasan  
 **Role:** SQA Intern | Software Quality Assurance  
@@ -108,11 +110,17 @@ This portfolio demonstrates practical application of concepts learned through:
 
 ---
 
-## 🔗 Related Repositories
+---
 
-- [API Testing Portfolio](https://github.com/tamzihasan9/api-testing-portfolio) - Postman collections and API validation
-- [Automation Testing](https://github.com/tamzihasan9/automation-pytest) - pytest automation scripts
-- [n8n Workflow Testing](https://github.com/tamzihasan9/n8n-qa-workflows) - Workflow automation for QA
+## Related Repositories
+
+← [Back to QA Portfolio Hub](https://github.com/tamzihasan9/qa-testing-portfolio)
+
+**Other Testing Areas:**
+- [API Testing](https://github.com/tamzihasan9/api-testing-portfolio)
+- [Regression Testing](https://github.com/tamzihasan9/regression-testing-portfolio)
+- [pytest Automation](https://github.com/tamzihasan9/automation-testing-pytest)
+- [n8n Workflows](https://github.com/tamzihasan9/n8n-qa-workflows)
 
 ---
 
