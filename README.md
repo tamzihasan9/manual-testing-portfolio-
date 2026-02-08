@@ -41,7 +41,7 @@ manual-testing-portfolio/
 - **Type:** Functional & Regression Testing
 - **Scope:** Login, Product Search, Cart, Checkout, Payment
 - **Test Cases:** 50+ scenarios covering positive, negative, and boundary cases
-- **Documents:** [Test Plan](./01-test-plans/sample-web-app-test-plan.md) | [Test Cases](./02-test-cases/functional-test-cases.xlsx)
+- **Documents:** [Test Plan](./01-test-plans/sample-web-app-test-plan.md) | [Test Cases](.Manual_Test_Cases_SauceDemo.xlsx)
 
 ### 2. **Mobile Banking Application (Sample)**
 - **Type:** UAT & Exploratory Testing
