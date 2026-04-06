@@ -10,8 +10,31 @@
 
 ## 📋 Overview
 
-This repository showcases my manual testing skills and methodologies as part of my Software Quality Assurance portfolio. It contains real-world test documentation, including test plans, test cases, bug reports, and execution summaries.
+## 🎯 Real-World Test Cases
 
+I have documented comprehensive test cases for **3 live e-commerce platforms**, demonstrating practical testing experience:
+
+### 1. SauceDemo E-Commerce Testing
+**Platform:** [SauceDemo.com](https://www.saucedemo.com/)  
+**Test Cases:** 15+ scenarios  
+**Coverage:** Login, Product Catalog, Shopping Cart, Checkout  
+**[View Test Cases →](./02-test-cases/test-cases-saucedemo.csv)**
+
+### 2. StarTech Electronics Testing
+**Platform:** [StarTech.com.bd](https://www.startech.com.bd/)  
+**Test Cases:** 20+ scenarios  
+**Coverage:** Product Search, Filters, Cart Management, Checkout  
+**[View Test Cases →](./02-test-cases/test-cases-startech.csv)**
+
+### 3. Othoba E-Commerce Testing
+**Platform:** [Othoba.com](https://www.othoba.com/)  
+**Test Cases:** 18+ scenarios  
+**Coverage:** User Management, Product Discovery, Orders, Payments  
+**[View Test Cases →](./02-test-cases/test-cases-othoba.csv)**
+
+**Total Test Cases Documented:** 50+  
+**Testing Types:** Functional, Regression, Exploratory  
+**Domain Expertise:** E-commerce, Payment Processing, User Flows
 **Skills Demonstrated:**
 - ✅ Test Planning & Strategy
 - ✅ Test Case Design (Functional, Regression, UAT)
@@ -35,28 +58,7 @@ manual-testing-portfolio/
 
 ---
 
-## 🎯 Projects Tested
-
-### 1. **E-Commerce Web Application**
-- **Type:** Functional & Regression Testing
-- **Scope:** Login, Product Search, Cart, Checkout, Payment
-- **Test Cases:** 50+ scenarios covering positive, negative, and boundary cases
-- **Documents:** [Test Plan](./01-test-plans/sample-web-app-test-plan.md) | [Test Cases](.Manual_Test_Cases_SauceDemo.xlsx)
-
-### 2. **Mobile Banking Application (Sample)**
-- **Type:** UAT & Exploratory Testing
-- **Scope:** Account Management, Fund Transfer, Transaction History
-- **Test Cases:** 30+ user acceptance scenarios
-- **Documents:** [UAT Test Cases](./02-test-cases/uat-test-cases.xlsx)
-
-### 3. **REST API Testing**
-- **Type:** Functional API Testing
-- **Scope:** User endpoints, Authentication, Data validation
-- **Test Cases:** 25+ API test scenarios
-- **Documents:** [API Bug Reports](./03-bug-reports/sample-bug-reports.md)
-
----
-
+ 
 ## 📊 Testing Metrics
 
 | Metric | Value |
