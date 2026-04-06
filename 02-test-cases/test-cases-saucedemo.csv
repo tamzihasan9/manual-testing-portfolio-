@@ -1,0 +1,67 @@
+Project_Name,Swag Labs E-Commerce,,,,,,,,,,
+Module,Login & Checkout,,,,,,,,,,
+Test_Url,https://www.saucedemo.com,,,,,,,,,,
+Author,Tamzid Hasan,,,,,,,,,,
+Tc_id,Module,Type of testing,Features ,Test_cases,Expected_Result,Actual_Result,Tset_Data,Reproducing_Steps,Bug_Screenshots,Status,
+TC_ID_001,Authentication,Functional_Testing,User_Login,Verify successful login with valid credentials., User is redirected to the Inventory Page and the URL contains /inventory.html.,As Expected,"1.username: standard_user
+2.password:
+secret_sauce","1.open through url
+2.fill up username 
+3.fill up valid password
+4.click on login button",,pass,
+ TC_ID_002,,,,Verify successful login with invalid username,username not found or username and password does not match,  AS Expected,"1.username:My_name_is_Tester
+2.password: secret_sauce","1.go through the url :https://www.saucedemo.com/
+2.fill the  invalid username
+3.fill the password
+4.click on login button ", Click Here,pass, 
+TC_ID_003,,,,Verify successful login with valid username and invalid password,username not found or username and password does not match,As Expected,"1.username: standard_user
+2.password:
+WEaretester","1.go through the url :https://www.saucedemo.com/
+2.fill the valid username
+3.fill the invalid password
+4.click on login button ", Click Here,pass,
+TC_ID_004,,,,Verify system behavior ,"System displays error message: 'Epic sadface: Sorry, this user has been locked out.' and user remains on the Login page.""",As Expected,"username: locked_out_user
+password :secret_sauce","1.go to url : 
+https://www.saucedemo.com/
+2.fill the username fileld 
+fill pasword field
+3.click on login button", Click Here,Pass,
+TC_ID_005,,,,Verify successful login with empty credentials.,"System displays error message: 'Username required with red cross sign.""",As Expected,"1.username :nothing(empty)
+2.password: nothing(empty)","1.leave username field empty
+2.leave password field empty
+2.click on login button", Click Here,Pass,
+TC_ID_006,Inventory(Products),Functional_Testing,Product_Listing,Verify the item price sorting list (low-high)work properly,The first item (Sauce Labs Onesie) is $7.99 (Cheapest).,As Expected,,"1.Navigate Price Drop-down menu
+2.select (low to high)",,pass,
+TC_ID_007,,,,Verify the item price sorting list(high-low) work properly,The first item (Sauce Labs Fleece Jacket) is $49.99 (Highest).,As Expected,," 1.Navigate Price Drop-down menu
+2.Select (high to low)",,Pass,
+TC_ID_008,,,,Verify that products are sorted by Name (A to Z).,The first item (Sauce Labs Backpack) is $29.99 .Where Alphabatically 'S'  is in assending order,As Expected,,"1.Click on the Filter dropdown (top right).
+2.Select ""Name (A to Z)"".",,Pass,
+TC_ID_009,,,,Verify that products are sorted by Name (Z to A),"The first item is ""Test.allTheThings() T-Shirt"" (T) and the last item is ""Sauce Labs Backpack"" (S).",As Expected,,"1.Click on the Filter dropdown (top right).
+2.Select ""Name (Z to A)"".",,Pass,
+TC_ID_010,,,,"Verify ""Add to Cart"" Button ", Product Should shows on the cart icon(with the number ),As Expected,,"1.navigate any product from dashboard
+2.click on ""Added to cart ""button",,Pass,
+TC_ID_011,,,,Verify Product Detail Navigation,User is redirected to the Product Details page., As Expected,,"1.select any product name 
+2.click on it",,Pass,
+TC_ID_012,,,,Verify UI Elements (Images),All product images load correctly without broken icons.,As Expected,,Check if product images are visible.,,Pass,
+TC_ID_013,Checkout,Functinal_Testing,,Verify checkout without postal code,"System displays error message: "" postal code is required""",As Expected,"First_name:TAMZID
+Last_name : HASAN","1.click on cart icon(top right)
+2.click on 'checkout' button
+3.enter first name
+4.enter last name
+5.empty the postal code
+6.click on 'continue' button", Click Here,Pass,
+TC_ID_014,,,,verify the checkout postal code field with alphabet,postal  code should be numeric.it must shows error,visualize the checkout overview page with order information,"First_name:TAMZID
+Last_name : HASAN
+POSTAL code :b","1.click on cart icon(top right)
+2.click on 'checkout' button
+3.enter first name
+4.enter last name
+5.enter the postal code
+6.click on 'continue' button", INPUT,Fail,
+TC_ID_015,,,,"Verify the Order complete ""Finish"" button","System displays message: ' Thank you ."" and complete the order ",AS Expected,,"1.click on cart icon(top right)
+2.click on 'checkout' button
+3.enter first name
+4.enter last name
+5.enter the postal code
+6.click on 'continue' button
+7.click on 'Finish' button",,pass,
